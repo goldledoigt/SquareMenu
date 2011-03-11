@@ -1,0 +1,36 @@
+.sq-wrap {
+	position:absolute;
+	background-color:#000000;
+}
+
+.sq-item-wrap {
+	position:absolute;
+}
+
+.sq-item-mask {
+	height:100%;
+}
+
+.sq-item-content {
+	z-index:1;
+	position:absolute;
+}
+
+.sq-item-middle {
+	vertical-align:middle;
+}
+
+/**********************************/
+
+.sq-item-mask {
+	background-color:#3A3A3C;
+	filter:alpha(opacity=70);
+	-moz-opacity:0.7;
+	-khtml-opacity:0.7;
+	opacity:0.7;
+}
+
+.sq-item-content a {
+	color:#FFFFFF;
+	font:12px arial;
+}
